@@ -1,0 +1,5 @@
+<%= form_with model: @post, local: true do |f| %>
+	<%= f.text_field :title %><br>
+	<%= f.rich_text_area :body %><br>
+	<%= f.submit %>
+<%  end %>
